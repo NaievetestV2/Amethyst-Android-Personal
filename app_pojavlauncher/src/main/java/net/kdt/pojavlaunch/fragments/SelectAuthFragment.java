@@ -1,5 +1,12 @@
 package net.kdt.pojavlaunch.fragments;
 
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
+import androidx.appcompat.app.AlertDialog;
+
 import static net.kdt.pojavlaunch.Tools.hasNoOnlineProfileDialog;
 
 import android.os.Bundle;
