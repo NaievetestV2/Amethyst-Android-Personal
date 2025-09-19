@@ -289,7 +289,7 @@ public class mcAccountSpinner extends AppCompatSpinner implements AdapterView.On
         if(minecraftAccount.isMicrosoft){
             if(System.currentTimeMillis() > minecraftAccount.expiresAt){
                 // Perform login only if needed
-                new MicrosoftBackgroundLogin(true, minecraftAccount.msaRefreshToken)
+                new MicrosoftBackgroundLogin(true, minecraftAccount.msaRefreshToken, "")
                         .performLogin(mProgressListener, mDoneListener, mErrorListener);
             }
             return;
