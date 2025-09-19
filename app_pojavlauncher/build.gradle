@@ -126,12 +126,12 @@ android {
             resValue 'string', 'shareProviderAuthority', 'org.angelauramc.amethyst.scoped.controlfolder.debug'
         }
         proguard {
-            initWith = proguard
+            initWith(proguard)
             minifyEnabled = true
             shrinkResources = true
         }
         proguardNoDebug {
-            initWith = proguard
+            initWith(proguard)
             debuggable = false
         }
         release {
@@ -141,7 +141,7 @@ android {
             resValue 'string', 'application_package', 'org.angelauramc.amethyst'
         }
         gplay {
-            initWith = release
+            initWith(release)
             signingConfig = signingConfigs.googlePlayBuild
             matchingFallbacks = ['release']
         }
