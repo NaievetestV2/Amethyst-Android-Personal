@@ -31,16 +31,16 @@ For more details, check out our [wiki](https://angelauramc.dev/wiki)!
 
 ## Introduction
 
-* Amethyst is a Minecraft: Java Edition launcher for Android and iOS based on [Boardwalk](https://github.com/zhuowei/Boardwalk) and [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)
+* Amethyst-Android-Personal is a Minecraft: Java Edition launcher for Android and iOS based on [Boardwalk](https://github.com/zhuowei/Boardwalk) and [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)
 * This launcher can launch almost all available Minecraft versions ranging from rd-132211 to 1.21 snapshots (including Combat Test versions)
 * Modding via Forge and Fabric are also supported.
-* This repository contains source code for Android. For iOS/iPadOS, check out [Amethyst-iOS](https://github.com/AngelAuraMC/Amethyst-iOS).
+* This repository contains source code for Android (modified). For iOS/iPadOS, check out [Amethyst-iOS](https://github.com/AngelAuraMC/Amethyst-iOS).
 
 ## Getting Amethyst
 
 You can get Amethyst via two methods:
 
-1. **Releases:** Download the latest prebuilt app from [nightly.link](https://nightly.link/AngelAuraMC/Amethyst-Android/workflows/android/v3_openjdk/app-debug.zip) or select an older version from our [automatic builds](https://github.com/AngelAuraMC/Amethyst-Android/actions).
+1. **Releases:** WIP.
 2. **Build from Source:** Follow the [building instructions](#building) below.
 
 ## Building
@@ -147,5 +147,4 @@ Future plans include:
 
 * Improving stability and performance.
 * Enhancing the mod installation experience.
-
-We welcome community feedback and suggestions for our roadmap.  Please feel free to open a feature request in our [issue tracker](https://github.com/AngelAuraMC/Amethyst-Android/issues).
+We cannot implement new features unless I learn Java (currently haven't), please contact me on Discord if you have codes I can implement without learning Java.
