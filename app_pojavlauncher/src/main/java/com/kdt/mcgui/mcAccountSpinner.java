@@ -126,7 +126,8 @@ public class mcAccountSpinner extends AppCompatSpinner implements AdapterView.On
     /* Triggered when we need to do microsoft login */
     private final ExtraListener<Uri> mMicrosoftLoginListener = (key, value) -> {
         mLoginBarPaint.setColor(getResources().getColor(R.color.minebutton_color));
-        new MicrosoftBackgroundLogin(false, value.getQueryParameter("code")).performLogin(
+        // Add an empty string "" as the third argument
+        new MicrosoftBackgroundLogin(false, value.getQueryParameter("code"), "").performLogin(
                 mProgressListener, mDoneListener, mErrorListener);
         return false;
     };
