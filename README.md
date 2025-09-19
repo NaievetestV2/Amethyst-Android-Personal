@@ -110,7 +110,7 @@ Any code change should be submitted as a pull request. The description should ex
 
 ## Support
 
-For support, please join our [Discord server](https://discord.com/invite/98pZ8YY3Cq).
+For support, please join our [Discord server](https://discord.com/invite/98pZ8YY3Cq). My personal Discord is `hackerdogs.`.
 
 ## License
 
