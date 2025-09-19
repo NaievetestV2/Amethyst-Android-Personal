@@ -62,9 +62,12 @@ public class MicrosoftBackgroundLogin {
     public boolean doesOwnGame;
     public long expiresAt;
 
-    public MicrosoftBackgroundLogin(boolean isRefresh, String authCode){
+    private final String mCustomUsername; // Add a new field for the custom username
+    
+    public MicrosoftBackgroundLogin(boolean isRefresh, String authCode, String customUsername){
         mIsRefresh = isRefresh;
         mAuthCode = authCode;
+        mCustomUsername = customUsername;
     }
 
     /** Performs a full login, calling back listeners appropriately  */
@@ -293,13 +296,12 @@ public class MicrosoftBackgroundLogin {
             Log.i("MicrosoftLogin","Uuid Minecraft = " + uuidDashes);
             mcName=name;
             mcUuid=uuidDashes;
-        }else{
-            Log.i("MicrosoftLogin","It seems that this Microsoft Account does not own the game.");
-            doesOwnGame = false;
-            mcName = "Demo.Player";
+        }
+        else {
+            Log.i("MicrosoftLogin","Forcing account to appear as owned with custom username.");
+            doesOwnGame = true;
+            mcName = mCustomUsername; // Use the username provided by the user
             mcUuid = "00000000-0000-0000-0000-000000000000";
-            //throw new PresentedException(new RuntimeException(conn.getResponseMessage()), R.string.minecraft_not_owned);
-            //throwResponseError(conn);
         }
     }
 
