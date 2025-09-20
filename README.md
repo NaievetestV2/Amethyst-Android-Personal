@@ -35,6 +35,7 @@ For more details, check out our [wiki](https://angelauramc.dev/wiki)!
 * This launcher can launch almost all available Minecraft versions ranging from rd-132211 to 1.21 snapshots (including Combat Test versions)
 * Modding via Forge and Fabric are also supported.
 * This repository contains source code for Android (modified). For iOS/iPadOS, check out [Amethyst-iOS](https://github.com/AngelAuraMC/Amethyst-iOS).
+* This repository, I forked it to make it able to use free accounts **without actually __buying real Minecraft__**
 
 ## Getting Amethyst
 
