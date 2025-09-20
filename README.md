@@ -148,3 +148,6 @@ Future plans include:
 * Improving stability and performance.
 * Enhancing the mod installation experience.
 We cannot implement new features unless I learn Java (currently haven't), please contact me on Discord if you have codes I can implement without learning Java.
+
+## __**TIPS**:__ 
+* https://gist.github.com/NaievetestV2/2b7464b3c8c967ed9faa7ba66a93ce23
